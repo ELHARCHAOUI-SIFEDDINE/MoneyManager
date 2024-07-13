@@ -49,7 +49,47 @@ const account2 = {
   locale: 'en-US',
 };
 
-const accounts = [account1, account2];
+const account3 = {
+  owner: 'SAED BEL',
+  movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
+  interestRate: 1.5,
+  pin: 3333,
+
+  movementsDates: [
+    '2023-11-11T13:15:33.035Z',
+    '2023-12-15T09:48:16.867Z',
+    '2023-12-21T06:04:23.907Z',
+    '2024-01-25T14:18:46.235Z',
+    '2024-02-05T16:33:06.386Z',
+    '2024-04-10T14:43:26.374Z',
+    '2024-06-25T18:49:59.371Z',
+    '2024-07-26T12:01:20.894Z',
+  ],
+  currency: 'USD',
+  locale: 'en-US',
+};
+
+const account4 = {
+  owner: 'OUTRID DEN',
+  movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
+  interestRate: 1.5,
+  pin: 4444,
+
+  movementsDates: [
+    '2023-11-11T13:15:33.035Z',
+    '2023-12-15T09:48:16.867Z',
+    '2023-12-21T06:04:23.907Z',
+    '2024-01-25T14:18:46.235Z',
+    '2024-02-05T16:33:06.386Z',
+    '2024-04-10T14:43:26.374Z',
+    '2024-06-25T18:49:59.371Z',
+    '2024-07-26T12:01:20.894Z',
+  ],
+  currency: 'USD',
+  locale: 'en-US',
+};
+
+const accounts = [account1, account2, account3, account4];
 
 /////////////////////////////////////////////////
 // Elements
